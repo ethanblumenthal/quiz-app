@@ -10,22 +10,22 @@ function renderQuestion() {
         </legend>
         
         <label required>
-          <input type="radio" name="answer" required >
+          <input type="radio" role="radio" name="answer" required >
           <span>${STORE[count].answers[0]}</span>
         </label>
 
         <label>
-          <input type="radio" name="answer" required >
+          <input type="radio" role="radio" name="answer" required >
           <span>${STORE[count].answers[1]}</span>
         </label>
 
         <label>
-          <input type="radio" name="answer" required >
+          <input type="radio" role="radio" name="answer" required >
           <span>${STORE[count].answers[2]}</span>
         </label>
 
         <label>
-          <input type="radio" name="answer" required >
+          <input type="radio" role="radio" name="answer" required >
           <span>${STORE[count].answers[3]}</span>
         </label>
         
