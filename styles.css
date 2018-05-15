@@ -1,0 +1,93 @@
+html {
+  background-color: black;
+}
+
+.information, .questionSpace {
+  margin: 20px 300px;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #CEBC81;
+  font-family: 'Roboto', Sans-Serif;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100px;
+  transform: rotate(90deg);
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #CEBC81;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #479761;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+label:hover {
+  background-color: #479761;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #CEBC81;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 10px;
+}
+
+input:checked {
+  border: 8px solid #CEBC81;
+}
+
+.correct {
+  font-size: 50px;
+  color: #479761;
+}
+
+.wrong {
+  font-size: 50px;
+  color: #A16E83;
+}
+
+@media screen and (max-width: 900px) {
+  .information, .questionSpace {
+    margin: 20px;
+  }
+  ul {
+    display: block;
+  }
+}
